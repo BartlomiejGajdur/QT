@@ -15,43 +15,6 @@
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
-    <item row="0" column="0">
-     <widget class="QLineEdit" name="Display">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="maximumSize">
-       <size>
-        <width>16777215</width>
-        <height>150</height>
-       </size>
-      </property>
-      <property name="font">
-       <font>
-        <family>Arial</family>
-        <pointsize>24</pointsize>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QLineEdit{
-	background-color: gray;
-	border: 2px solid gray;
-	padding: 5px;
-	color: #ffffff;
-}</string>
-      </property>
-      <property name="text">
-       <string>0.0</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-      </property>
-     </widget>
-    </item>
     <item row="1" column="0">
      <layout class="QGridLayout" name="Layout">
       <item row="0" column="2">
@@ -615,6 +578,43 @@ QPushButton:pressed{
        </widget>
       </item>
      </layout>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLineEdit" name="Display">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>24</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	background-color: gray;
+	border: 2px solid gray;
+	padding: 5px;
+	color: #ffffff;
+}</string>
+      </property>
+      <property name="text">
+       <string>0.0</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>
