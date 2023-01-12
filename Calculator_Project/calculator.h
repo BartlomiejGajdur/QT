@@ -2,6 +2,9 @@
 #define CALCULATOR_H
 
 #include <QMainWindow>
+#include <QtCore>
+#include <QtGui>
+#include <QMessageBox>
 
 QT_BEGIN_NAMESPACE
 namespace Ui
@@ -18,14 +21,25 @@ public:
     Calculator(QWidget *parent = nullptr);
     ~Calculator();
 
+    enum class Trigger{
+        Add=1,Substract,Multiply,Divide,Clear
+    };
+
 private:
     Ui::Calculator *ui;
 
+    void setTrigger(const Trigger& trigger);
+
 private slots:
      void NumPressed();
-     void myCustomSlot();
      void MathButtonPressed();
      void EqualButton();
-//    void ChangeNumberSign();
+     void ChangeNumberSign();
+     void AcCLEAR();
+     void clearLast();
+     void on_actionREADME_triggered();
+     void AddMEMORY();
+     void SubstractMEMORY();
+     void ShowMemory();
 };
 #endif // CALCULATOR_H
