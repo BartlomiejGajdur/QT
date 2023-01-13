@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.qtproject.example.TestAndroiD2-mergeDebugResources-4:/values/values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\gajdu\\Desktop\\C++\\QT\\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\\android-build\\res\\values\\libs.xml",
+                    "from": {
+                        "startLines": "4,15,8,21,19,22,20",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "148,414,203,632,535,683,584",
+                        "endLines": "6,17,13,21,19,22,20",
+                        "endColumns": "12,12,12,50,48,47,47",
+                        "endOffsets": "197,529,408,678,579,726,627"
+                    },
+                    "to": {
+                        "startLines": "2,5,8,14,16,17,19",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,109,229,439,598,639,777",
+                        "endLines": "4,7,13,14,16,17,19",
+                        "endColumns": "12,12,12,50,40,39,47",
+                        "endOffsets": "104,224,434,485,634,674,820"
+                    }
+                },
+                {
+                    "source": "C:\\Qt\\6.4.2\\android_x86_64\\src\\android\\java\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "85,193",
+                        "endColumns": "107,97",
+                        "endOffsets": "188,286"
+                    },
+                    "to": {
+                        "startLines": "15,18",
+                        "startColumns": "4,4",
+                        "startOffsets": "490,679",
+                        "endColumns": "107,97",
+                        "endOffsets": "593,772"
+                    }
+                }
+            ]
+        }
+    ]
+}

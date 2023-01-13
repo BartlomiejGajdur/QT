@@ -1,0 +1,9 @@
+org.qtproject.example.TestAndroiD2-java-0 C:\Qt\6.4.2\android_x86_64\src\android\java\res
+org.qtproject.example.TestAndroiD2-pngs-1 C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\build\generated\res\pngs\debug
+org.qtproject.example.TestAndroiD2-resValues-2 C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\build\generated\res\resValues\debug
+org.qtproject.example.TestAndroiD2-rs-3 C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\build\generated\res\rs\debug
+org.qtproject.example.TestAndroiD2-mergeDebugResources-4 C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+org.qtproject.example.TestAndroiD2-mergeDebugResources-5 C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+org.qtproject.example.TestAndroiD2-merged_res-6 C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\build\intermediates\merged_res\debug
+org.qtproject.example.TestAndroiD2-android-build-7 C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\res
+org.qtproject.example.TestAndroiD2-debug-8 C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\src\debug\res

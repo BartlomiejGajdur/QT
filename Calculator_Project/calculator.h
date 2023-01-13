@@ -29,6 +29,7 @@ private:
     Ui::Calculator *ui;
 
     void setTrigger(const Trigger& trigger);
+    void setColorOnMathButtons(bool triggered);
 
 private slots:
      void NumPressed();

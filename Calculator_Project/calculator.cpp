@@ -9,8 +9,8 @@ bool multTrigger = false;
 bool addTrigger = false;
 bool subTrigger = false;
 
-bool IsEqualWasBefore = false;
-
+bool MathOperationLastClicked = false;
+bool IsEqualWasBefore = false ;
 
 
 Calculator::Calculator(QWidget *parent)
@@ -51,6 +51,9 @@ Calculator::Calculator(QWidget *parent)
 
     connect(ui->MemGet,SIGNAL(released()),this,SLOT(ShowMemory()));
 
+
+
+
 }
 
 Calculator::~Calculator()
@@ -67,30 +70,37 @@ void Calculator::setTrigger(const Calculator::Trigger& trigger){
         subTrigger = false;
         multTrigger = false;
         divTrigger = false;
+        ui->Add->setStyleSheet("background-color: #ffffff; color: #EA382A; border-radius: 30px; ");
         break;
     case Calculator::Trigger::Substract:
         addTrigger = false;
         subTrigger = true;
         multTrigger = false;
         divTrigger = false;
+        ui->Substract->setStyleSheet("background-color: #ffffff; color: #EA382A; border-radius: 30px; ");
         break;
     case Calculator::Trigger::Multiply:
         addTrigger = false;
         subTrigger = false;
         multTrigger = true;
         divTrigger = false;
+        ui->Multiply->setStyleSheet("background-color: #ffffff; color: #EA382A; border-radius: 30px; ");
         break;
     case Calculator::Trigger::Divide:
         addTrigger = false;
         subTrigger = false;
         multTrigger = false;
         divTrigger = true;
+        ui->Divide->setStyleSheet("background-color: #ffffff; color: #EA382A; border-radius: 30px; ");
         break;
     case Calculator::Trigger::Clear:
         addTrigger = false;
         subTrigger = false;
         multTrigger = false;
         divTrigger = false;
+        setColorOnMathButtons(false);
+
+
         break;
     default:
        qDebug() << "Enter properly Trigger name to set to true";
@@ -99,6 +109,8 @@ void Calculator::setTrigger(const Calculator::Trigger& trigger){
 }
 
 void Calculator::NumPressed(){
+
+    setColorOnMathButtons(false);
     QPushButton *button = (QPushButton *)sender();
 
     QString butval = button->text();
@@ -119,6 +131,7 @@ void Calculator::MathButtonPressed(){
 
      QString butval = button->text();
      QString currentVal = ui->Display->text();
+
 
      bool prevOperationDONE =false;
 
@@ -155,6 +168,7 @@ void Calculator::MathButtonPressed(){
               calcVal += currentVal.toDouble();
             }
              setTrigger(Calculator::Trigger::Add);
+
 
      }else if(butval == "-")
      {
@@ -257,5 +271,17 @@ void Calculator::ShowMemory(){
 void Calculator::on_actionREADME_triggered()
 {
     QMessageBox::information(this,"title","README");
+}
+
+void Calculator::setColorOnMathButtons(bool triggered){
+    if(triggered)
+    {
+        ui->Add->setStyleSheet("background-color: #ffffff; color: #EA382A; border-radius: 30px; ");
+    }else{
+        ui->Add->setStyleSheet("background-color: rgba(34,43,65,255); color: rgba(17,177,135,255); border-radius: 30px; ");
+        ui->Substract->setStyleSheet("background-color: rgba(34,43,65,255); color: rgba(17,177,135,255); border-radius: 30px; ");
+        ui->Multiply->setStyleSheet("background-color: rgba(34,43,65,255); color: rgba(17,177,135,255); border-radius: 30px; ");
+        ui->Divide->setStyleSheet("background-color: rgba(34,43,65,255); color: rgba(17,177,135,255); border-radius: 30px; ");
+    }
 }
 

@@ -1,0 +1,95 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.qtproject.example.TestAndroiD2"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="23"
+9-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:7:5-67
+12-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:8:5-81
+13-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:8:22-78
+14
+15    <supports-screens
+15-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:10:5-14:39
+16        android:anyDensity="true"
+16-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:11:9-34
+17        android:largeScreens="true"
+17-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:12:9-36
+18        android:normalScreens="true"
+18-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:13:9-37
+19        android:smallScreens="true" />
+19-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:14:9-36
+20
+21    <application
+21-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:15:5-47:19
+22        android:name="org.qtproject.qt.android.bindings.QtApplication"
+22-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:16:9-71
+23        android:allowBackup="true"
+23-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:21:9-35
+24        android:allowNativeHeapPointerTagging="false"
+24-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:20:9-54
+25        android:debuggable="true"
+26        android:fullBackupOnly="false"
+26-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:22:9-39
+27        android:hardwareAccelerated="true"
+27-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:17:9-43
+28        android:label="TestAndroiD2"
+28-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:18:9-37
+29        android:requestLegacyExternalStorage="true" >
+29-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:19:9-52
+30        <activity
+30-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:23:9-46:20
+31            android:name="org.qtproject.qt.android.bindings.QtActivity"
+31-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:24:13-72
+32            android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation|mcc|mnc|density"
+32-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:25:13-182
+33            android:exported="true"
+33-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:29:13-36
+34            android:label="TestAndroiD2"
+34-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:26:13-41
+35            android:launchMode="singleTop"
+35-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:27:13-43
+36            android:screenOrientation="unspecified" >
+36-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:28:13-52
+37            <intent-filter>
+37-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:30:13-33:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:31:17-69
+38-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:31:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:32:17-77
+40-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:32:27-74
+41            </intent-filter>
+42
+43            <meta-data
+43-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:35:11-37:48
+44                android:name="android.app.lib_name"
+44-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:36:17-52
+45                android:value="TestAndroiD2" />
+45-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:37:17-45
+46            <meta-data
+46-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:39:11-41:36
+47                android:name="android.app.arguments"
+47-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:40:17-53
+48                android:value="" />
+48-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:41:17-33
+49            <meta-data
+49-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:43:13-45:43
+50                android:name="android.app.extract_android_style"
+50-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:44:17-65
+51                android:value="minimal" />
+51-->C:\Users\gajdu\Desktop\C++\QT\build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug\android-build\AndroidManifest.xml:45:17-40
+52        </activity>
+53    </application>
+54
+55</manifest>

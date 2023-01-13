@@ -1,0 +1,17 @@
+# ninja log v5
+2	2423	6952620033034619	TestAndroiD2_autogen/timestamp	bd828b0d7fcd0a49
+2	2423	6952620033034619	TestAndroiD2_autogen/mocs_compilation.cpp	bd828b0d7fcd0a49
+2	2423	6952620033034619	C:/Users/gajdu/Desktop/C++/QT/build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug/TestAndroiD2_autogen/timestamp	bd828b0d7fcd0a49
+2	2423	6952620033034619	C:/Users/gajdu/Desktop/C++/QT/build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug/TestAndroiD2_autogen/mocs_compilation.cpp	bd828b0d7fcd0a49
+2431	8975	6952620103025079	CMakeFiles/TestAndroiD2.dir/main.cpp.o	508b2f544f83b482
+2424	9079	6952620103872850	CMakeFiles/TestAndroiD2.dir/TestAndroiD2_autogen/mocs_compilation.cpp.o	3970949cbfc8df93
+2427	9388	6952620107058204	CMakeFiles/TestAndroiD2.dir/calculator.cpp.o	b17720b16ae7978e
+9389	9630	6952620109841610	libTestAndroiD2_x86_64.so	9dfb1b95d1ccd4be
+9630	9684	0	CMakeFiles/TestAndroiD2_prepare_apk_dir	f459c0d77b5dc11d
+9630	9684	0	C:/Users/gajdu/Desktop/C++/QT/build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug/CMakeFiles/TestAndroiD2_prepare_apk_dir	f459c0d77b5dc11d
+24	90	0	CMakeFiles/TestAndroiD2_prepare_apk_dir	f459c0d77b5dc11d
+24	90	0	C:/Users/gajdu/Desktop/C++/QT/build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug/CMakeFiles/TestAndroiD2_prepare_apk_dir	f459c0d77b5dc11d
+7	47	0	CMakeFiles/TestAndroiD2_prepare_apk_dir	f459c0d77b5dc11d
+7	47	0	C:/Users/gajdu/Desktop/C++/QT/build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug/CMakeFiles/TestAndroiD2_prepare_apk_dir	f459c0d77b5dc11d
+27	73	0	CMakeFiles/TestAndroiD2_prepare_apk_dir	f459c0d77b5dc11d
+27	73	0	C:/Users/gajdu/Desktop/C++/QT/build-TestAndroiD2-Android_Qt_6_4_2_Clang_x86_64-Debug/CMakeFiles/TestAndroiD2_prepare_apk_dir	f459c0d77b5dc11d

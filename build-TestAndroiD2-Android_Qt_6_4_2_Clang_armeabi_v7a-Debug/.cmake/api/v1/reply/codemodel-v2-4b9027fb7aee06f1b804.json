@@ -1,0 +1,151 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-11cc9c291a7bccea9f66.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TestAndroiD2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "TestAndroiD2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestAndroiD2-Debug-d6257644e264525a5fb1.json",
+					"name" : "TestAndroiD2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestAndroiD2_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestAndroiD2_autogen-Debug-02ccbfc6514a251b9fdf.json",
+					"name" : "TestAndroiD2_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestAndroiD2_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestAndroiD2_autogen_timestamp_deps-Debug-9aaf3f38895b64a33c37.json",
+					"name" : "TestAndroiD2_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestAndroiD2_make_aab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestAndroiD2_make_aab-Debug-83b23b37a48e07a14b49.json",
+					"name" : "TestAndroiD2_make_aab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestAndroiD2_make_apk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestAndroiD2_make_apk-Debug-f7116ff9abb3c6917b66.json",
+					"name" : "TestAndroiD2_make_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestAndroiD2_prepare_apk_dir::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestAndroiD2_prepare_apk_dir-Debug-2acf470108a351d151de.json",
+					"name" : "TestAndroiD2_prepare_apk_dir",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "_qt_internal_apk_dependencies::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_qt_internal_apk_dependencies-Debug-95bcf47bb5154a38fe90.json",
+					"name" : "_qt_internal_apk_dependencies",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aab-Debug-87dfe9daf1448e5238b0.json",
+					"name" : "aab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apk-Debug-9285500348bd6ffe7317.json",
+					"name" : "apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apk_all::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apk_all-Debug-0058f6dbea6e0e229559.json",
+					"name" : "apk_all",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_internal_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_internal_plugins-Debug-8cd0215baa59d2eccd69.json",
+					"name" : "qt_internal_plugins",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/gajdu/Desktop/C++/QT/build-TestAndroiD2-Android_Qt_6_4_2_Clang_armeabi_v7a-Debug",
+		"source" : "C:/Users/gajdu/Desktop/C++/QT/TestAndroiD2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
